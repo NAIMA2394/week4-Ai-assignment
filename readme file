@@ -1,0 +1,76 @@
+# 🤖 AI in Software Engineering: Building Intelligent Software Solutions
+
+## 📘 Project Overview
+This project explores the use of AI tools in software engineering to:
+- Automate code generation
+- Improve software testing
+- Perform predictive analytics
+- Reflect on AI ethics in development
+
+---
+
+## 🧩 Project Structure
+```
+ai-software-engineering/
+├── task1_code_completion/
+│   └── copilot_vs_manual.py
+├── task2_automated_testing/
+│   └── login_test.side  (or Testim project)
+├── task3_predictive_analytics/
+│   └── breast_cancer_prediction.ipynb
+├── report.pdf
+├── README.md
+└── assets/  # screenshots, video
+```
+
+---
+
+## ⚙️ Installation
+Install required libraries:
+```bash
+pip install pandas scikit-learn matplotlib
+```
+Use Selenium IDE or Testim for browser-based testing.
+
+---
+
+## 🚀 How to Run
+### Task 1: Code Completion
+- Open `copilot_vs_manual.py`
+- Compare AI-suggested vs. manually written function
+
+### Task 2: Automated Testing
+- Open `login_test.side` in Selenium IDE
+- Run the test cases (valid and invalid credentials)
+
+### Task 3: Predictive Analytics
+- Open `breast_cancer_prediction.ipynb`
+- Run all cells to train and evaluate the model
+
+---
+
+## 📊 Results
+- **Task 1:** AI-suggested code was faster, shorter, and easier to maintain
+- **Task 2:** Selenium IDE captured accurate results with screenshots and logs
+- **Task 3:** Random Forest model achieved:
+  - Accuracy: 96.49%
+  - F1 Score: 97.22%
+
+---
+
+## 🧠 Ethical Reflection
+- Discussed fairness concerns in model deployment
+- Proposed tools like IBM AI Fairness 360 to address bias
+
+---
+
+## ✨ Bonus Proposal: DocGenAI
+An NLP-based tool to automatically generate project documentation from code and commit history.
+
+---
+
+## 📂 GitHub Repository
+- [Insert Repository Link Here]
+
+## 📄 License
+This project is open source under the MIT License.
